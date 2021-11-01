@@ -5,6 +5,7 @@ import Loader from "react-loader-spinner";
 import HeroTag from "./Component/HeroTag/HeroTag";
 import HeroDetail from "./Component/HeroDetail/HeroDetail";
 import HeroMessage from "./Component/HeroMessage/HeroMessage";
+import React from "react";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
